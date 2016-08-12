@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation= "vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context=".Academics">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/twostudents"
+                android:id="@+id/imageView7" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dsustudent"
+                android:layout_marginTop="309dp"
+                android:background="#FF3349"
+                android:id="@+id/imageView10"
+                android:layout_below="@+id/imageView7"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Self-Achievement Through Academics
+                Academics are the cornerstone of an education at Delaware State University, and knowledge is key to achieving your life goals.
+                At Delaware State University (DSU), you’ll acquire the education and skills you need to be a competitive force in today’s changing global job market. Whether you’re preparing for a career in international relations through one of our study-abroad programs, looking to hone your talents as music major or learning the latest technology in applied optics, DSU has a dedicated faculty and challenging curriculum to empower you for life’s road ahead.
+
+                DSU is accredited by the Middle States Commission on Higher Education (MSCHE).  In addition, the University’s Business, Education, Social Work, Nursing, Didactic, and Hospitality and Tourism all have national accreditations.
+
+                Most DSU students will agree that our world-renowned faculty helps set us apart from other colleges and universities. We have some of the most knowledgeable and dedicated instructors in higher education today. In fact, our 205 faculty members, spread over 21 departments, hold a total of 174 doctoral degrees or terminal degrees.  Click the More button to redirect to our webpage for more information."
+                android:id="@+id/textView7"
+                android:textSize="15sp"
+                android:background="#33A5FF"
+                android:layout_marginTop="192dp"
+                android:layout_below="@+id/textView9"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="more"
+                android:id="@+id/button"
+                android:onClick="more"
+                android:layout_below="@+id/textView7"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Academics"
+                android:id="@+id/textView9"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="#FF3349"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

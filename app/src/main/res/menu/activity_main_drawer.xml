@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@mipmap/ic_home_black_24dp"
+            />
+        <item
+            android:id="@+id/academic"
+            android:title="Academics"
+            android:icon="@mipmap/ic_filter_1_black_24dp"
+            />
+        <item
+            android:id="@+id/admissions"
+            android:title="Admissions"
+            android:icon="@mipmap/ic_filter_2_black_24dp"
+            />
+        <item
+            android:id="@+id/finacial_aid"
+            android:title="Financial Aid"
+            android:icon="@mipmap/ic_filter_3_black_24dp"
+            />
+        <item
+            android:id="@+id/campus"
+            android:title="Campus Activity"
+            android:icon="@mipmap/ic_filter_4_black_24dp"
+            />
+    </group>
+
+    <item android:title="Information">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Virtual Tour"
+                android:icon="@mipmap/ic_filter_5_black_24dp"
+                />
+            <item
+                android:id="@+id/schedule"
+                android:title="Schedule a visit"
+                android:icon="@mipmap/ic_filter_6_black_24dp"
+                />
+        </menu>
+    </item>
+
+</menu>
+
